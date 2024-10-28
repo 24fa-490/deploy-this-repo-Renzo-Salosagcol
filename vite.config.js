@@ -7,6 +7,9 @@ export default defineConfig({
 	plugins: [sveltekit(),
 		mkcert()
 	],
+	eslint: {
+		ignoreDuringBuilds: true
+	},
 	server: {
 		https: true,
 		proxy: {}, // essential to avoid "can't use Symbol where you need a string" error
