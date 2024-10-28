@@ -22,6 +22,8 @@
 
 7. npm run dev
 
+test redeploy
+
 *Comments and feedback welcome!*
 
 # Where am I deployed?
